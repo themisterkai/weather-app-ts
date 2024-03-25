@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App - Kai & Kalyani</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,700&display=swap" rel="stylesheet" />
+</head>
+<body id="main">
+  <div>
+    <div class="top">
+      <div class="control">
+        <span id="control-celcius"></span> | <span id="control-fahrenheit"></span>
+      </div>
+      <div class="weather"></div>
+    </div>
+    <div class="description-box">
+      <img id="icon" />
+      <h2 id="description"></h2>
+    </div>
+  </div>
+  <div class="forecast"></div>
+  <footer>
+    <div class="search-bar" >
+      <input id="search-bar" type="text" placeholder="Search by city name">
+      <p class="geolocation">or <a href="javascript:void(0)" id="geolink">use current location</a></p>
+      <p class="error"></p>
+      <p>Created with love by: <a href="https://github.com/themisterkai" target="_blank" >Kai Lee Hernandez</a></p>
+    </div>
+  </footer>
+  <script src="./constants.js"></script>
+  <script src="./script.js"></script>
+</body>
+</html>
