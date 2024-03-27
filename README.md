@@ -2,6 +2,8 @@
 
 For this project, I created a weather app using the OpenWeather API. This was first implemented using vanilla Javascript before being rewritten to TypeScript.
 
+You can see the original javascript code in './orig-js-code'
+
 ## The problem
 
 We are using two endpoints from the OpenWeather API:
@@ -18,4 +20,4 @@ We also added some CSS functionality. The theme of the page changes based on the
 
 ## View it live
 
-[https://themisterkai.github.io/project-weather-app/](https://themisterkai.github.io/project-weather-app/)
+[https://themisterkai.github.io/weather-app-ts/](https://themisterkai.github.io/weather-app-ts/)
